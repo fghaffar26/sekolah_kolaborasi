@@ -28,6 +28,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+
   <!-- =======================================================
   * Template Name: Bootslander - v4.3.0
   * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
@@ -45,14 +46,16 @@
       <div class="logo">
         <!-- <h1><a href="index.html"><span>Sekolah Kolaborasi</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="assets/img/logo-disdik.png" alt="" class="img-fluid"></a>
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <!-- <a href="index.html"><img src="assets/img/logo-disdik.png" alt="" class="img-fluid"></a>
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="#visi_misi">Visi</a></li>
           <li><a class="nav-link scrollto" href="#tujuan">Tujuan</a></li>
+          <li><a class="nav-link scrollto" href="#diagram">Statistik</a></li>
           <li><a class="nav-link scrollto" href="#features">Usulan</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
@@ -121,6 +124,56 @@
 
   <main id="main">
 
+    <!-- ======= visi misi Section ======= -->
+    <section id="visi_misi" class="visi_misi">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 icon-boxes d-flex flex-column align-items-stretch py-5 px-lg-5" data-aos="fade-left">
+            <h3>VISI DINAS PENDIDIKAN PROVINSI DKI JAKARTA</h3>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-caret-right"></i></div>
+              <h4 class="title"><a>PENDIDIKAN YANG TUNTAS DAN BERKUALITAS UNTUK SEMUA</a></h4>
+            </div>
+
+          </div>
+
+          <div class="col-xl-6 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+            <h3>MISI DINAS PENDIDIKAN PROVINSI DKI JAKARTA</h3>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-caret-right"></i></div>
+              <h4 class="title"><a>Mewujudkan akses yang merata dan berkeadilan</a></h4>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-caret-right"></i></div>
+              <h4 class="title"><a>Mewujudkan pembelajaran yang bermutu</a></h4>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-caret-right"></i></div>
+              <h4 class="title"><a>Mewujudkan efektifitas birokrasi dalam pelayanan pendidikan</a></h4>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-caret-right"></i></div>
+              <h4 class="title"><a>Meningkatkan peran ekosistem pendidikan</a></h4>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-caret-right"></i></div>
+              <h4 class="title"><a>Mewujudkan tata kelola, akuntabilitas dan trans-paransi pendidikan</a></h4>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+            </div>
+          </div>
+
+        </div>
+    </section><!-- End tujuan Section -->
+
     <!-- ======= tujuan Section ======= -->
     <section id="tujuan" class="tujuan">
       <div class="container">
@@ -132,17 +185,17 @@
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon"><i class="bi bi-caret-right"></i></div>
-              <h4 class="title"><a href="">Memberikan kesempatan yang sama pada seluruh lapisan masyarakat untuk dapat memperoleh layanan Pendidikan yang berkualitas</a></h4>
+              <h4 class="title"><a>Memberikan kesempatan yang sama pada seluruh lapisan masyarakat untuk dapat memperoleh layanan Pendidikan yang berkualitas</a></h4>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon"><i class="bi bi-caret-right"></i></div>
-              <h4 class="title"><a href="">Kolaborasi antara pemerintah dengan sekolah swasta untuk memastikan penyediaan layanan pendidikan berkualitas</a></h4>
+              <h4 class="title"><a>Kolaborasi antara pemerintah dengan sekolah swasta untuk memastikan penyediaan layanan pendidikan berkualitas</a></h4>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon"><i class="bi bi-caret-right"></i></div>
-              <h4 class="title"><a href="">Mendorong kerjasama antar-sekolah, berbagi fasilitas dan kompetensi, serta membangun semangat kegotongroyongan</a></h4>
+              <h4 class="title"><a>Mendorong kerjasama antar-sekolah, berbagi fasilitas dan kompetensi, serta membangun semangat kegotongroyongan</a></h4>
             </div>
 
           </div>
@@ -153,58 +206,105 @@
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon"><i class="bi bi-caret-right"></i></div>
-              <h4 class="title"><a href="">Mengurangi kesenjangan antara satuan pendidikan negeri dan swasta di DKI Jakarta</a></h4>
+              <h4 class="title"><a>Mengurangi kesenjangan antara satuan pendidikan negeri dan swasta di DKI Jakarta</a></h4>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon"><i class="bi bi-caret-right"></i></div>
-              <h4 class="title"><a href="">Kolaborasi di bidang pendidikan</a></h4>
+              <h4 class="title"><a>Kolaborasi di bidang pendidikan</a></h4>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon"><i class="bi bi-caret-right"></i></div>
-              <h4 class="title"><a href="">Mendorong terjadinya kerja sama. (Tiga tujuan selaras dengan tujuan Sekolah Kolaborasi pada RPJMD)</a></h4>
+              <h4 class="title"><a>Mendorong terjadinya kerja sama. (Tiga tujuan selaras dengan tujuan Sekolah Kolaborasi pada RPJMD)</a></h4>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
             </div>
           </div>
 
           <div class="row">
-            <div class="col-xl-6 col-lg-6 icon-boxes d-flex flex-column py-5 px-lg-5" data-aos="fade-left">
-              <h3>Landasan Hukum</h3>
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon"><i class="bi bi-caret-right"></i></div>
-                <h4 class="title"><a href="">Undang-Undang Nomor 20 tahun 2003 tentang Sistem Pendidikan Nasional</a></h4>
+            <div class="icon-boxes d-flex flex-column py-5 px-lg-5" data-aos="fade-left">
+              <h3>Landasan Hukum Sekolah Kolaborasi</h3>
+
+              <div class="row d-flex">
+                <div class="icon-box col-xl-6 col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon"><i class="bi bi-caret-right"></i></div>
+                  <h4 class="title"><a>Undang-Undang Nomor 20 tahun 2003 tentang Sistem Pendidikan Nasional</a></h4>
+                </div>
+                <div class="icon-box col-xl-6 col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon"><i class="bi bi-caret-right"></i></div>
+                  <h4 class="title"><a>Perda No. 8 Tahun 2006 Tentang Sistem Pendidikan</a></h4>
+                </div>
+                <div class="icon-box col-xl-6 col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon"><i class="bi bi-caret-right"></i></div>
+                  <h4 class="title"><a>Pasal 5 ayat (1) tentang wajib belajar 9 tahun</a></h4>
+                </div>
+                <div class="icon-box col-xl-6 col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon"><i class="bi bi-caret-right"></i></div>
+                  <h4 class="title"><a>Pasal 7 ayat (4) “Orang tua berkewajiban atas biaya kelangsungan pendidikan anaknya sesuai kemampuan kecuali bagi orang tua yang tidak mampu dibebaskan dari kewajiban tersebut dan menjadi tanggungjawab Pemerintah dan Pemerintah Daerah“</a></h4>
+                </div>
+                <div class="icon-box col-xl-6 col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon"><i class="bi bi-caret-right"></i></div>
+                  <h4 class="title"><a>Pasal 10 ayat (4) “Peserta didik yang berprestasi dan/atau orang tuanya tidak mampu membiayai pendidikan berhak mendapatkan bea siswa dan/atau bantuan biaya pendidikan dari Pemerintah dan Pemerintah Daerah dan/atau Masyarakat“</a></h4>
+                </div>
+                <div class="icon-box col-xl-6 col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon"><i class="bi bi-caret-right"></i></div>
+                  <h4 class="title"><a>Pasal 16 huruf f “Pemerintah Daerah wajib menyediakan dana guna terselenggaranya wajib belajar 12 tahun khususnya bagi peserta didik dari keluarga tidak mampu dan anak terlantar</a></h4>
+                </div>
               </div>
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon"><i class="bi bi-caret-right"></i></div>
-                <h4 class="title"><a href="">Perda No. 8 Tahun 2006 Tentang Sistem Pendidikan</a></h4>
-              </div>
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon"><i class="bi bi-caret-right"></i></div>
-                <h4 class="title"><a href="">Pasal 5 ayat (1) tentang wajib belajar 9 tahun</a></h4>
-              </div>
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon"><i class="bi bi-caret-right"></i></div>
-                <h4 class="title"><a href="">Pasal 7 ayat (4) “Orang tua berkewajiban atas biaya kelangsungan pendidikan anaknya sesuai kemampuan kecuali bagi orang tua yang tidak mampu dibebaskan dari kewajiban tersebut dan menjadi tanggungjawab Pemerintah dan Pemerintah Daerah“</a></h4>
-              </div>
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon"><i class="bi bi-caret-right"></i></div>
-                <h4 class="title"><a href="">Pasal 10 ayat (4) “Peserta didik yang berprestasi dan/atau orang tuanya tidak mampu membiayai pendidikan berhak mendapatkan bea siswa dan/atau bantuan biaya pendidikan dari Pemerintah dan Pemerintah Daerah dan/atau Masyarakat“</a></h4>
-              </div>
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon"><i class="bi bi-caret-right"></i></div>
-                <h4 class="title"><a href="">Pasal 16 huruf f “Pemerintah Daerah wajib menyediakan dana guna terselenggaranya wajib belajar 12 tahun khususnya bagi peserta didik dari keluarga tidak mampu dan anak terlantar</a></h4>
-              </div>
+
             </div>
           </div>
 
         </div>
     </section><!-- End tujuan Section -->
 
+    <!-- ======= Diagram Section ======= -->
+    <section id="diagram" class="diagram">
+      <div class="container">
+        <h3 class="px-lg-4" data-aos="fade-left">Statistik</h3>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left" data-aos-delay="100">
+            <h4>Data Sekolah Prov. DKI Jakarta</h4>
+            <canvas id="chart-data-sekolah" style="width:100%;max-width:600px"></canvas>
+          </div>
+          <div class="col-xl-6 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left" data-aos-delay="150">
+            <h4>Data Peserta Didik Prov. DKI Jakarta</h4>
+            <canvas id="chart-data-peserta" style="width:100%;max-width:600px"></canvas>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center py-5" style="text-align: center;">
+          <h4 data-aos="fade-left" data-aos-delay="50">Data Guru Prov. DKI Jakarta</h4>
+          <div class="col-xl-4 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left" data-aos-delay="100">
+            <h4>SD</h4>
+            <canvas id="chart-data-guru-sd" style="width:100%;max-width:600px"></canvas>
+          </div>
+          <div class="col-xl-4 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left" data-aos-delay="150">
+            <h4>SMP</h4>
+            <canvas id="chart-data-guru-smp" style="width:100%;max-width:600px"></canvas>
+          </div>
+          <div class="col-xl-4 col-lg-4 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left" data-aos-delay="200">
+            <h4>SMA</h4>
+            <canvas id="chart-data-guru-sma" style="width:100%;max-width:600px"></canvas>
+          </div>
+          <div class="col-xl-4 col-lg-4 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left" data-aos-delay="250">
+            <h4>SMK</h4>
+            <canvas id="chart-data-guru-smk" style="width:100%;max-width:600px"></canvas>
+          </div>
+          <div class="col-xl-4 col-lg-4 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left" data-aos-delay="300">
+            <h4>SLB</h4>
+            <canvas id="chart-data-guru-slb" style="width:100%;max-width:600px"></canvas>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Diagram Section -->
+
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
-      <div class="container">
+      <div class="container" style="text-align: center;">
 
-        <div class="col">
+        <div class="col py-5">
           <h3 data-aos="fade-up">Usulan jakarta sekolah kolaborasi jenjang SMA</h3>
 
           <div class="scroll-table" data-aos="fade-up">
@@ -244,8 +344,7 @@
           </nav>
         </div>
 
-
-        <div class="col">
+        <div class="col py-5">
           <h3 data-aos="fade-up">Usulan jakarta sekolah kolaborasi jenjang SMP</h3>
           <div class="scroll-table" data-aos="fade-up">
             <table class="table">
@@ -529,68 +628,37 @@
 
         <div class="row no-gutters" data-aos="fade-left">
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-6 col-md-4">
             <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-              </a>
+              <iframe src="https://drive.google.com/file/d/1tgEVSbfXWEOogo8zF3aIAhnUfAxc468q/preview" width="640" height="460" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-              </a>
+          <div class="col-lg-6 col-md-4">
+            <div class="row no-gutters" data-aos="fade-left">
+              <div class="col-lg-6 col-md-8">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+                  <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
+                    <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-8">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                  <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
+                    <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-8">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                  <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
+                    <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
-              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
           </div>
 
         </div>
@@ -1052,15 +1120,211 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <!-- <script src="assets/js/jquery-main.js"></script> -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    var url = "http://103.134.19.19:4020/backboneV2?query=query%20rekap%7B%0A%20%20rekap%7B%0A%20%20%20%20message%0A%20%20%20%20sekolah%20%7B%0A%20%20%20%20%20%20nama%0A%20%20%20%20%20%20sd_n%0A%20%20%20%20%20%20sd_s%0A%20%20%20%20%20%20smp_n%0A%20%20%20%20%20%20smp_s%0A%20%20%20%20%20%20sma_n%0A%20%20%20%20%20%20sma_s%0A%20%20%20%20%20%20smk_n%0A%20%20%20%20%20%20smk_s%0A%20%20%20%20%20%20slb_n%0A%20%20%20%20%20%20slb_s%0A%20%20%20%20%7D%0A%20%20%20%20pd%20%7B%0A%20%20%20%20%20%20nama%0A%20%20%20%20%20%20sd_pd_negeri%0A%20%20%20%20%20%20sd_pd_swasta%0A%20%20%20%20%20%20smp_pd_negeri%0A%20%20%20%20%20%20smp_pd_swasta%0A%20%20%20%20%20%20sma_pd_negeri%0A%20%20%20%20%20%20sma_pd_swasta%0A%20%20%20%20%20%20smk_pd_negeri%0A%20%20%20%20%20%20smk_pd_swasta%0A%20%20%20%20%20%20slb_pd_negeri%0A%20%20%20%20%20%20slb_pd_swasta%0A%20%20%20%20%7D%0A%20%20%20%20guru%20%7B%0A%20%20%20%20%20%20nama%0A%20%20%20%20%20%20sd_ptk_negeri%0A%20%20%20%20%20%20sd_ptk_swasta%0A%20%20%20%20%20%20smp_ptk_negeri%0A%20%20%20%20%20%20smp_ptk_swasta%0A%20%20%20%20%20%20sma_ptk_negeri%0A%20%20%20%20%20%20sma_ptk_swasta%0A%20%20%20%20%20%20smk_ptk_negeri%0A%20%20%20%20%20%20smk_ptk_swasta%0A%20%20%20%20%20%20slb_ptk_negeri%0A%20%20%20%20%20%20slb_ptk_swasta%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D&operationName=rekap";
+    fetch(url).then(function(response) {
+      return response.json();
+    }).then(function(data) {
+      // console.log(data);
+
+      var jenjang = ["SD", "SMP", "SMA", "SMK", "SLB"];
+      var jumlahSekolahNegeri = [0, 0, 0, 0, 0];
+      var jumlahSekolahSwasta = [0, 0, 0, 0, 0];
+      var jumlahPesertaNegeri = [0, 0, 0, 0, 0];
+      var jumlahPesertaSwasta = [0, 0, 0, 0, 0];
+      var jumlahGuruSD = [0, 0];
+      var jumlahGuruSMP = [0, 0];
+      var jumlahGuruSMA = [0, 0];
+      var jumlahGuruSMK = [0, 0];
+      var jumlahGuruSLB = [0, 0];
+
+      data.data.rekap.sekolah.forEach(e => {
+        jumlahSekolahNegeri[0] += e.sd_n;
+        jumlahSekolahSwasta[0] += e.sd_s;
+        jumlahSekolahNegeri[1] += e.smp_n;
+        jumlahSekolahSwasta[1] += e.smp_s;
+        jumlahSekolahNegeri[2] += e.sma_n;
+        jumlahSekolahSwasta[2] += e.sma_s;
+        jumlahSekolahNegeri[3] += e.smk_n;
+        jumlahSekolahSwasta[3] += e.smk_s;
+        jumlahSekolahNegeri[4] += e.slb_n;
+        jumlahSekolahSwasta[4] += e.slb_s;
+      });
+
+      data.data.rekap.pd.forEach(e => {
+        jumlahPesertaNegeri[0] += e.sd_pd_negeri;
+        jumlahPesertaSwasta[0] += e.sd_pd_swasta;
+        jumlahPesertaNegeri[1] += e.smp_pd_negeri;
+        jumlahPesertaSwasta[1] += e.smp_pd_swasta;
+        jumlahPesertaNegeri[2] += e.sma_pd_negeri;
+        jumlahPesertaSwasta[2] += e.sma_pd_swasta;
+        jumlahPesertaNegeri[3] += e.smk_pd_negeri;
+        jumlahPesertaSwasta[3] += e.smk_pd_swasta;
+        jumlahPesertaNegeri[4] += e.slb_pd_negeri;
+        jumlahPesertaSwasta[4] += e.slb_pd_swasta;
+      });
+
+      data.data.rekap.guru.forEach(e => {
+        jumlahGuruSD[0] += e.sd_ptk_negeri
+        jumlahGuruSMP[0] += e.smp_ptk_negeri
+        jumlahGuruSMA[0] += e.sma_ptk_negeri
+        jumlahGuruSMK[0] += e.smk_ptk_negeri
+        jumlahGuruSLB[0] += e.slb_ptk_negeri
+        jumlahGuruSD[1] += e.sd_ptk_swasta
+        jumlahGuruSMP[1] += e.smp_ptk_swasta
+        jumlahGuruSMA[1] += e.sma_ptk_swasta
+        jumlahGuruSMK[1] += e.smk_ptk_swasta
+        jumlahGuruSLB[1] += e.slb_ptk_swasta
+      });
+
+      bikin_chart(jenjang, jumlahPesertaNegeri, jumlahPesertaSwasta, jumlahSekolahNegeri, jumlahSekolahSwasta, jumlahGuruSD, jumlahGuruSMP, jumlahGuruSMA, jumlahGuruSMK, jumlahGuruSLB);
+    });
+
+    function bikin_chart(jenjang, jumlahPesertaNegeri, jumlahPesertaSwasta, jumlahSekolahNegeri, jumlahSekolahSwasta, jumlahGuruSD, jumlahGuruSMP, jumlahGuruSMA, jumlahGuruSMK, jumlahGuruSLB) {
+      new Chart("chart-data-sekolah", {
+        type: "bar",
+        data: {
+          labels: jenjang,
+          datasets: [{
+            label: "Negeri",
+            data: jumlahSekolahNegeri,
+            backgroundColor: "#010483",
+            fill: false
+          }, {
+            label: "Swasta",
+            data: jumlahSekolahSwasta,
+            backgroundColor: "#7ceec6",
+            fill: false
+          }, ]
+        },
+        options: {
+          legend: {
+            display: true
+          },
+        }
+      });
+
+      new Chart("chart-data-peserta", {
+        type: "bar",
+        data: {
+          labels: jenjang,
+          datasets: [{
+            label: "Negeri",
+            data: jumlahPesertaNegeri,
+            backgroundColor: "#010483",
+            fill: false
+          }, {
+            label: "Swasta",
+            data: jumlahPesertaSwasta,
+            backgroundColor: "#7ceec6",
+            fill: false
+          }, ]
+        },
+        options: {
+          legend: {
+            display: true
+          },
+        }
+      });
+
+      new Chart("chart-data-guru-sd", {
+        type: "doughnut",
+        data: {
+          labels: ["Negeri", "Swasta"],
+          datasets: [{
+            data: jumlahGuruSD,
+            backgroundColor: ["#010483", "#7ceec6"],
+            fill: false
+          }]
+        },
+        options: {
+          legend: {
+            display: true
+          },
+        }
+      });
+
+      new Chart("chart-data-guru-smp", {
+        type: "doughnut",
+        data: {
+          labels: ["Negeri", "Swasta"],
+          datasets: [{
+            data: jumlahGuruSMP,
+            backgroundColor: ["#010483", "#7ceec6"],
+            fill: false
+          }]
+        },
+        options: {
+          legend: {
+            display: true
+          },
+        }
+      });
+
+      new Chart("chart-data-guru-sma", {
+        type: "doughnut",
+        data: {
+          labels: ["Negeri", "Swasta"],
+          datasets: [{
+            data: jumlahGuruSMA,
+            backgroundColor: ["#010483", "#7ceec6"],
+            fill: false
+          }]
+        },
+        options: {
+          legend: {
+            display: true
+          },
+        }
+      });
+
+      new Chart("chart-data-guru-smk", {
+        type: "doughnut",
+        data: {
+          labels: ["Negeri", "Swasta"],
+          datasets: [{
+            data: jumlahGuruSMK,
+            backgroundColor: ["#010483", "#7ceec6"],
+            fill: false
+          }]
+        },
+        options: {
+          legend: {
+            display: true
+          },
+        }
+      });
+
+      new Chart("chart-data-guru-slb", {
+        type: "doughnut",
+        data: {
+          labels: ["Negeri", "Swasta"],
+          datasets: [{
+            data: jumlahGuruSLB,
+            backgroundColor: ["#010483", "#7ceec6"],
+            fill: false
+          }]
+        },
+        options: {
+          legend: {
+            display: true
+          },
+        }
+      });
+    }
+  </script>
 
 </body>
 

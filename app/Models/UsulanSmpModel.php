@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UsulanSmaModel extends Model
+class UsulanSmpModel extends Model
 {
-    protected $table      = 'sma';
+    protected $table      = 'smp';
     protected $allowedFields = [
         'no', 'wilayah', 'sekolah_induk', 'sekolah_mitra'
     ];
